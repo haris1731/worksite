@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harish Ameer | Excel Automation & Google Sheets Expert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    html, body {
+      font-family: 'Outfit', sans-serif;
+      background: #111;
+      color: #f4f4f4;
+      scroll-behavior: smooth;
+    }
+    header.hero {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header.hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    header.hero p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    .nav-link {
+      color: #00e5ff !important;
+      font-weight: 500;
+    }
+    .section {
+      padding: 80px 20px;
+    }
+    .card-custom {
+      background: #1a1a2e;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 20px auto;
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+    .card-custom:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 40px rgba(0, 229, 255, 0.3);
+    }
+    .tag {
+      background: #00e5ff33;
+      padding: 8px 16px;
+      margin: 5px;
+      border-radius: 999px;
+      display: inline-block;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+    footer {
+      background: #0c0c0c;
+      padding: 40px 20px;
+      text-align: center;
+      color: #aaa;
+    }
+    .btn-custom {
+      background: #00e5ff;
+      color: #000;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    .btn-custom:hover {
+      background: #00c9db;
+      color: #fff;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 40px;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      background: #00e5ff;
+    }
+    .timeline-item {
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -6px;
+      top: 5px;
+      width: 16px;
+      height: 16px;
+      background: #00e5ff;
+      border-radius: 50%;
+    }
+    .timeline-item h5 {
+      margin-bottom: 5px;
+      color: #00e5ff;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Harish Ameer</h1>
+    <p>Excel Automation | Google Sheets Dashboards | Data Management</p>
+    <a href="#contact" class="btn btn-custom">Hire Me</a>
+  </header>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Harish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="services" class="section container">
+    <h2 class="text-center mb-5">What I Offer</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card-custom" data-aos="fade-up">
+          <h4>Excel Automation</h4>
+          <p>From macros to VBA scripting, I automate repetitive tasks, report generation, and complex data operations.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-custom" data-aos="fade-up" data-aos-delay="100">
+          <h4>Google Sheets Dashboards</h4>
+          <p>Interactive, real-time dashboards using Apps Script and advanced formula logic for your business needs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-custom" data-aos="fade-up" data-aos-delay="200">
+          <h4>Data Analysis & Management</h4>
+          <p>Clean, analyze, and visualize your data for powerful decision-making insights and efficient MIS reports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section container">
+    <h2 class="text-center mb-5">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h5>Executive - Client Servicing @ Easy Source HR</h5>
+        <p>Managed payroll, master data, automation of CTC, F&F settlements using Excel and internal tools.</p>
+        <small>Feb 2024 – May 2024</small>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2 class="text-center mb-5">Sample Projects</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-custom" data-aos="zoom-in">
+          <h5>Employee Leave Tracker (Excel + Macro)</h5>
+          <p>Automated leave system with dynamic charts and printable views.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card-custom" data-aos="zoom-in" data-aos-delay="100">
+          <h5>Sales Dashboard (Google Sheets)</h5>
+          <p>Connected with live forms and includes pivot tables + slicers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="text-center">
+      <span class="tag">Excel (Advanced)</span>
+      <span class="tag">VBA / Macros</span>
+      <span class="tag">Apps Script</span>
+      <span class="tag">Dashboard Building</span>
+      <span class="tag">Data Cleaning</span>
+      <span class="tag">Visualization</span>
+      <span class="tag">MIS Reports</span>
+      <span class="tag">Google Forms Integration</span>
+    </div>
+  </section>
+
+  <section id="contact" class="section container text-center">
+    <h2 class="mb-4">Hire Me</h2>
+    <p>You can reach me via email or visit my GitHub for templates and tools.</p>
+    <p>📧 <a href="mailto:harisahmed1731@gmail.com">harisahmed1731@gmail.com</a></p>
+    <p>📱 8696746270</p>
+    <a href="https://haris1731.github.io" target="_blank" class="btn btn-custom">View My GitHub</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Harish Ameer | Designed with ❤️ for automation</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+  <!-- Part 2: Testimonials, Pricing Plans, FAQ, and Theme Toggle -->
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section container">
+  <h2 class="text-center mb-5">What Clients Say</h2>
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card-custom text-center">
+          <p>"Harish automated our entire Excel workflow. Saved us hours every week. Highly recommended!"</p>
+          <strong>- Ankit Sharma, HR Manager</strong>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-custom text-center">
+          <p>"From messy sheets to a beautiful Google Dashboard! Harish is a magician with Sheets."</p>
+          <strong>- Neha Verma, Ops Lead</strong>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card-custom text-center">
+          <p>"Quick, professional, and incredibly efficient with scripts and reports."</p>
+          <strong>- Rajat Mehta, Consultant</strong>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- Pricing Plans Section -->
+<section id="pricing" class="section container">
+  <h2 class="text-center mb-5">Pricing Plans</h2>
+  <div class="d-flex justify-content-center mb-4">
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" id="priceToggle">
+      <label class="form-check-label text-white" for="priceToggle">Toggle Monthly/Hourly</label>
+    </div>
+  </div>
+  <div class="row text-center" id="pricingCards">
+    <div class="col-md-4">
+      <div class="card-custom" data-aos="flip-left">
+        <h4>Starter</h4>
+        <p class="price-tag">₹499 / Hour</p>
+        <ul>
+          <li>Basic Excel tasks</li>
+          <li>Email support</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-custom" data-aos="flip-left" data-aos-delay="100">
+        <h4>Professional</h4>
+        <p class="price-tag">₹3,999 / Month</p>
+        <ul>
+          <li>Dashboard development</li>
+          <li>Apps Script automation</li>
+          <li>Priority support</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card-custom" data-aos="flip-left" data-aos-delay="200">
+        <h4>Enterprise</h4>
+        <p class="price-tag">₹7,999 / Month</p>
+        <ul>
+          <li>Full automation suite</li>
+          <li>1-on-1 consultation</li>
+          <li>Unlimited edits</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="section container">
+  <h2 class="text-center mb-5">FAQ</h2>
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq1">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+          How fast can you deliver a dashboard?
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Depending on complexity, most dashboards are ready in 1–3 days.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+          Do you offer ongoing support?
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, I offer maintenance packages to keep everything up-to-date.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faq3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+          Can I customize your templates?
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Absolutely. I deliver editable versions and guide you as needed.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Theme Toggle Button -->
+<div class="position-fixed top-0 end-0 p-3">
+  <button id="themeToggle" class="btn btn-sm btn-custom">🌗 Toggle Theme</button>
+</div>
+
+<script>
+  // Theme Toggle Script
+  const toggleBtn = document.getElementById("themeToggle");
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("bg-light");
+    document.body.classList.toggle("text-dark");
+  });
+
+  // Pricing Toggle
+  document.getElementById("priceToggle").addEventListener("change", function () {
+    const prices = document.querySelectorAll(".price-tag");
+    prices[0].textContent = this.checked ? "₹3,999 / Month" : "₹499 / Hour";
+    prices[1].textContent = this.checked ? "₹6,999 / Month" : "₹799 / Hour";
+    prices[2].textContent = this.checked ? "₹12,999 / Month" : "₹1,499 / Hour";
+  });
+</script>
+
+
+</body>
+
+</html>
